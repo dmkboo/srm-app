@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Avenir;
+    src: url('./fonts/avenir/AEH.ttf');
+}
+body{
+  margin:0;
+  font-family: Roboto;
+}
+.homeWrapper{
+  width: 100vw;
+  height: 100vh;
+  background: url('./img/landing-santarm2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.homeFlex{
+  background: rgba(200,200,200,.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.homeItem{
+  margin: 10px 0;
+}
+.homeItem:first-child > h1, .homeItem:first-child > h5{
+  margin: 0px;
+  text-align: center;
+}
+.homeItem:first-child > h1 {
+  font-size: 85px;
+  font-weight: bold;
+}
+.homeItem:first-child > h5 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.homeItem:last-child{
+  margin-top: calc(100vh - 95vh);
+}
+.homeButtonContainer > a{
+  text-decoration: none;
+}
+.homeButtonContainer{
+  position: absolute;
+  /* top: 10px; */
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+}
+.homeButton{
+  font-size: 18px;
+  font-weight: lighter;
+  color:#fff;
+  background:#222222;
+  padding: 20px 40px;
+  border:1px solid #222222;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.homeButton:hover{
+  cursor: pointer;
+  background: #fff;
+  color: #222222;
+  border:1px solid #fff;
+}
+.homeButton:active{
+
+}
