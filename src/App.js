@@ -10,7 +10,7 @@ export default class App extends Component{
       <Router>
         <div>
           <Route exact path="/" component={Home} />
-          <Route path="/pruebas" component={Dashboard} />
+          <Route path="/dashboard" component={Dashboard} />
         </div>
       </Router>
     )

@@ -12,7 +12,7 @@ export default class Home extends Component{
           </div>
         </div>
         <div className="homeButtonContainer">
-          <Link to="/testing"><div className="homeButton">Ir a la aplicación web</div></Link>
+          <Link to="/dashboard"><div className="homeButton">Ir a la aplicación web</div></Link>
         </div>
       </div>
     )
